@@ -6,8 +6,13 @@ public class week4codingProject2 {
 		
 		// TODO Auto-generated method stub
 		
+		//1 Create an array of int called ages that contains the following values: 3, 9, 23, 64, 2, 8, 28, 93.
+
+        //a. Programmatically subtract the value of the first element in the array from the value in the last element of the array (i.e. do not use ages[7] in your code). Print the result to the console.  
+
+         //b. Create a new array of int called ages2 with 9 elements (ages2 will be longer than the ages array, and have more elements).  
 		
-		Integer ages [] = {3, 9, 23, 64, 2, 8, 28, 93};
+		        Integer ages [] = {3, 9, 23, 64, 2, 8, 28, 93};
 				
 				
 				System.out.println((ages[ages.length-1]) - ages[0]  );
@@ -38,13 +43,14 @@ public class week4codingProject2 {
 				
 		//a. Use a loop to iterate through the array and calculate the average number of letters per name.
 		//Print the result to the console.
-			
+				
 				
 			
 		//b. Use a loop to iterate through the array again and concatenate all the names together, separated 
 		//by spaces, and print the result to the console.
 				
-		//7.
+		//7. Write a method that takes a String, word, and an int, n, as arguments and returns the word 
+		//concatenated to itself n number of times. (i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
 				String inputWord = "Hello";
 		        int repeatCount = 3;
 		        String repeatedString = repeatWord(inputWord, repeatCount);
@@ -139,7 +145,8 @@ public class week4codingProject2 {
 		 		//return average1 > average2;
 		 	}
 		 
-			//12. Write a method called willBuyDrink that takes a boolean isHotOutside, and a double moneyInPocket, and returns true if it is
+			//12. Write a method called willBuyDrink that takes a boolean isHotOutside, 
+		 	//and a double moneyInPocket, and returns true if it is
 			//hot outside and if moneyInPocket is greater than 10.50.
 		 		
 		 	public static boolean willBuyDrink (boolean isHotOutside, double moneyInPocket) {
